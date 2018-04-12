@@ -1,0 +1,61 @@
+.\"
+.\" File: HetrisManual.6
+.\" Author: Hieu Do
+.\" Description: Hetris manual page. Written using troff macros.
+.\"
+
+.TH "Hetris" "6" "12 April 2018" "" "Hetris\'s man page"
+.SH NAME
+Hetris \- A Tetris clone, written for System Software course
+.SH SYNOPSIS
+.B
+ ./Hetris
+.SH DESCRIPTION
+Hetris is a clone of the classical falling\-block game Tetris, which was first
+written by Russian developers.
+.SH GOAL
+.P
+In short: Fill in the blanks. 
+.P
+Look for blanks and land the tetromino (or lock)
+in order to fill them. Points are given when a full line is filled, and when
+that happens, that line is also disappeared. A more particular score rules are
+stated below.
+.SH SCORING
+.IP
+1 line clear  <\-\-\->  100 points
+.IP
+2 lines clear <\-\-\->  200 points
+.IP
+3 lines clear <\-\-\->  600 points
+.IP
+4 lines clear <\-\-\-> 2400 points
+.SH 
+.SH INSTRUCTIONS
+.P
+.B
+ARROW_LEFT, A, H
+.IP
+Move the falling tetromino to the left by one unit.
+.P
+.B
+ARROW_RIGHT, D, L
+.IP
+Move the falling tetromino to the right by one unit.
+.P
+.B 
+ARROW_UP, W, K
+.IP 
+Rotate the falling tetromino clockwise 90 degrees.
+.P
+.B 
+ARROW_DOWN, S, J
+.IP 
+Move the falling tetromino downward by one unit (aka soft-drop).
+.P
+.B 
+SPACEBAR
+.IP 
+Lock the tetromino instantly.
+.SH AUTHORS
+Hieu Do <hieu.do@edu.turkuamk.fi>
